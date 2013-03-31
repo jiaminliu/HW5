@@ -5,9 +5,10 @@
         <siteMapNode url="~/Admin/Default.aspx" title="Admin"  description="" >
             <siteMapNode url="./Admin/shoesMagt.aspx" title="Manage Inventory"  description="" />
             <siteMapNode url="./Admin/Add New Shoe.aspx" title="Add Shoe"  description="" />
+        </siteMapNode>
         <siteMapNode url="~/Sales/default.aspx" title="Sales"  description="" >
             <siteMapNode url="./Sales/RecordSale.aspx" title="Record Sale"  description="" >
-   </siteMapNode>
+   
     </siteMapNode>
    </siteMapNode>
    </siteMapNode>

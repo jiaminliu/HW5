@@ -11,16 +11,19 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div class="logo">
-   <h1> Welcome to Designer Shoe Store!</h1>
+    <div>
+    <h1> Welcome to Designer Shoe Store!</h1>
+    </div>
+    <div class="menu">
         &nbsp;<asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" 
-        staticdisplaylevels="1" RenderingMode="List">
+        staticdisplaylevels="1" RenderingMode="List" CssClass="Menu">
         </asp:Menu>
         <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
-        </asp:ContentPlaceHolder>
     </div>
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+       
+        </asp:ContentPlaceHolder>
     </form>
 </body>
 </html>
