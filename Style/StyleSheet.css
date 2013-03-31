@@ -61,6 +61,7 @@ h3.title{
 }
 
 
+
 			
 a
 {
@@ -86,3 +87,11 @@ a:hover
 #main {background:#DC143C; float:right; width:600px;height:525px; }
 
 #sidebar { background: #DC143C; float:left; width:300px; padding:10px; }
+#status
+{
+    float: right;
+}
+.loginstatus
+{
+    float: right;
+}
