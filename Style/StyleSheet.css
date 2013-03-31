@@ -1,12 +1,11 @@
 ﻿body
 {
     color: white;
-    font-family: Veranda;
-     background-image: url('../Images/Mark.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../Images/Mark.jpg');
     font-size: 12pt;
     margin-left: 10%;
     margin-right: 10%;
-   
 }
 .title
 {
@@ -33,14 +32,15 @@ h2.title
     
 }
 
-h3.title{
-    margin:0;
-	font-weight:normal;
-	font-size: 10pt; 
-	color:#000000;
-	text-align:center;
-	font-family: 'Adobe Fan Heiti Std B';
-	}
+h3.title
+{
+    margin: 0;
+    font-weight: normal;
+    font-size: 10pt;
+    color: #000000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .pictureframe {border: solid 1px black; 
 			background: white;
@@ -69,23 +69,48 @@ h3.title{
     font-family: 'Bradley Hand ITC';
     color: #000000;
 }
-
-
-
-			
-a
+.loginstatus
 {
-    text-decoration: none;
-    font-weight: bold;
-    color: #FFFFFF;
+    font-family: "Bradley Hand ITC";
+    float: right;
+    color: #000000;
 }
+
+.cssgridview
+{width:100%;
+ 
+ margin: 5px 0 10px 0;
+ border: solid 1px #FFFFFF;
+ border-collapse:collapse;
+ text-align:center;
+ font-family:'Bradley Hand ITC';
+ color:White;
+}
+
+.cssgridview td { padding:10px;border:solid 1pc #FFFFFF; color:White;}
+
+.cssgridview td a:visited{color:#666633;text-decoration:none;}
+
+
+
+.cssgridview th
+{
+    padding: 10px;
+    color: white;
+    background-color: #333300;
+}
+
+.cssgridview th a{color:white;text-decoration:underline;}
+
+.cssgridview th a:hover{color:#5B8C5F;text-decoration:none;}
+
 a:link a:visited
 {
-    color: #666699;
+    color: #666633;
 }
 a:hover
 {
-    color: #FF3300;
+    color: #5B8C5F;
 }
 
 #wrap
@@ -98,10 +123,6 @@ a:hover
 
 #sidebar { background: #DC143C; float:left; width:300px; padding:10px; }
 #status
-{
-    float: right;
-}
-.loginstatus
 {
     float: right;
 }

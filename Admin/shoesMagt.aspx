@@ -38,7 +38,7 @@
     <br />
     <asp:DetailsView ID="DetailsView1" runat="server" AllowPaging="True" 
         DataSourceID="SqlDataSource1" Height="50px" Width="125px" 
-        AutoGenerateRows="False" DataKeyNames="StyleID">
+        AutoGenerateRows="False" DataKeyNames="StyleID" CssClass="grid">
         <Fields>
             <asp:BoundField DataField="StyleID" HeaderText="StyleID" InsertVisible="False" 
                 ReadOnly="True" SortExpression="StyleID" />
