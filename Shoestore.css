@@ -1,0 +1,27 @@
+		body 
+		{
+			color: Black;
+			background-color: White;
+			font-size: 12pt;
+			font-family: Veranda; Arial, Helvetica, sans-serif;  
+			text-align: center;
+		}
+		
+
+
+		div { background-color:white; text-align:center; margin:0 auto; }
+		
+		p { color: black; font-size: 12pt; }
+		
+		h1 { font-style:italic; font-weight:bold; }
+		h2 { font-weight:bold; text-decoration:underline }
+		
+		a { text-decoration:none; }
+		a:link, a:visited { color:Blue; }
+		a:hover, a:active { text-decoration:underline; color:red; }
+		
+		
+		
+		.footer { font-size:12pt; font-weight:bold; text-align:center; line-height:20pt; padding-top:50pt;}
+		
+		#Welcome_Header { text-align:center; }

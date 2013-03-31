@@ -1,0 +1,70 @@
+﻿body
+{
+    color: white;
+    font-family: Veranda;
+     background-image: url('../Images/Mark.jpg');
+    font-size: 12pt;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}
+	  
+h1.title {
+    font-size: 36pt;
+	font-weight: bold;
+	text-align:center;
+	margin-top: 15px;
+	margin-bottom: 0px; }
+
+h2.title {
+   font-size: 14pt;
+	font-weight: normal;
+	text-decoration: underline;
+	padding-bottom: 0px;
+	margin-bottom: 25px; 
+	}
+
+h3.title{
+    margin:0;
+	font-weight:normal;
+	font-size: 14pt; 
+	color:white;
+	font-family:Veranda;
+	text-align:center;
+	}
+
+.pictureframe {border: solid 1px black; 
+			background: white;
+			width: 250px;
+			padding: 20px;
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: 10px;
+			margin-bottom: 20px;
+			text-align: center;
+			text-align: center;
+			font-size: 15pt;
+			color: solid black}
+.deletedhighlight
+{
+    color: #FFFF00;
+}
+    
+#logo {
+  border: solid 1px #CCC; }
+
+			
+a{ text-decoration:none; font-weight:bold;}
+a:link a:visited {color: purple}
+a:hover{color: DeepPink}
+
+#wrap
+{
+    width: 940px;
+    margin: auto;
+
+}
+
+#main {background:#DC143C; float:right; width:600px;height:525px; }
+
+#sidebar { background: #DC143C; float:left; width:300px; padding:10px; }
