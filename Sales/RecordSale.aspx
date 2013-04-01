@@ -3,6 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<h2 class="title">Please update the quantity of the item after the sale.</h2>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
         ConnectionString="<%$ ConnectionStrings:ConnectionString2 %>" 
         SelectCommand="SELECT [StyleID], [Category], [Color], [Quantity], [Sizes] FROM [Shoes]" 

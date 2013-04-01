@@ -16,20 +16,23 @@
             AlternatingRowStyle-CssClass="alt"
             PagerStyle-CssClass="pgr"
             GridLines="None" Height="195px">
+<AlternatingRowStyle CssClass="alt"></AlternatingRowStyle>
             <Columns>
+                <asp:ImageField DataImageUrlField="StyleID" 
+                    DataImageUrlFormatString="ShoesImages/{0}.jpg">
+                </asp:ImageField>
                 <asp:BoundField DataField="Category" HeaderText="Category" 
                     SortExpression="Category" />
                 <asp:BoundField DataField="Description" HeaderText="Description" 
                     SortExpression="Description" />
+                <asp:BoundField DataField="Color" HeaderText="Color" SortExpression="Color" />
+                <asp:BoundField DataField="StdPrice" HeaderText="Price" 
+                    SortExpression="StdPrice" />
                 <asp:HyperLinkField DataNavigateUrlFields="StyleID" 
                     DataNavigateUrlFormatString="Details.aspx?StyleID={0}" Text="Details" />
-                <asp:BoundField DataField="Color" HeaderText="Color" SortExpression="Color" />
-                <asp:BoundField DataField="StdPrice" HeaderText="StdPrice" 
-                    SortExpression="StdPrice" />
-                <asp:ImageField DataImageUrlField="StyleID" 
-                    DataImageUrlFormatString="ShoesImages/{0}.jpg">
-                </asp:ImageField>
             </Columns>
+
+<PagerStyle CssClass="pgr"></PagerStyle>
         </asp:GridView>
         <br />
         </div>
