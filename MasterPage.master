@@ -16,6 +16,7 @@
     <h3 class="title">LEAVE YOUR MARK</h3>
     <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="loginstatus" />
     </div>
+    <div class="wrap">
     <div class="menu">
       <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" 
         staticdisplaylevels="1" RenderingMode="List" CssClass="Menu">
@@ -27,6 +28,7 @@
     <br />
     <br />
 <hr />
+</div>
     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
        
         </asp:ContentPlaceHolder>
