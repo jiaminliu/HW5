@@ -14,7 +14,7 @@
     <div>
     <h1 class="title"> Welcome to id shoes!</h1>
     <h3 class="title">LEAVE YOUR MARK</h3>
-    <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="loginstatus" />
+    
     </div>
     <div class="wrap">
     <div class="menu">
@@ -27,11 +27,19 @@
     </div>
     <br />
     <br />
+    <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="loginstatus" />
+     <asp:Label ID="Labeldate" runat="server"></asp:Label>
+       
+
+    <br />
 <hr />
-</div>
+
     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
        
         </asp:ContentPlaceHolder>
+        <div id = "footer">
+        Copyright &copy Jiamin Liu, <a href="mailto:jiamin-liu@uiowa.edu">jiamin-liu@uiowa.edu</a>,2013</div>
+        </div>
     </form>
 </body>
 </html>
